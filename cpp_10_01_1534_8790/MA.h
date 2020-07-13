@@ -21,6 +21,10 @@ public:
 	bool stipend()override;
 	//Print the student's identity
 	void print();
+
+	std::string studType() { return "MA"; }
+
+	const bool participate() const { return _participate; }
 };
 #endif 
 

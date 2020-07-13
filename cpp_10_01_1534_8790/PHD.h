@@ -21,6 +21,10 @@ public:
 	bool stipend();
 	//Print the student's identity
 	void print();
+
+	std::string studType() { return "PHD"; }
+
+	bool operator <(PHD R) const { return _numberOFhours < R._numberOFhours; }
 };
 
 #endif 

@@ -19,11 +19,19 @@ protected:
 	uint Average(uint* grades);
 public:
 	//Constractor
-	BA(uint id, std::string firstName, std::string lastName, uint numberOFcourses, uint size, uint* grades) :Student(id, firstName, lastName, numberOFcourses), _size(size), _grades(grades) {}
+	BA(uint id, std::string firstName, std::string lastName, uint numberOFcourses, uint size, uint* grades) :Student(id, firstName, lastName, numberOFcourses), _size(size) 
+	{ 
+		_grades = new uint[size];
+		
+		for (int i = 0; i < size; i++)
+			_grades[i] = grades[i];
+	}
 	//Checking if he is allowed to get a stipend	
 	bool stipend();
 	//Print the student's identity
 	void print();
+
+	std::string studType() { return "BA"; }
 	//destractor
 	~BA() {
 		delete _grades;

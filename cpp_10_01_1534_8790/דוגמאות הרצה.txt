@@ -1,0 +1,246 @@
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 1
+enter 1 to add a BA student
+enter 2 to add a MA student
+enter 3 to add a PHD student
+1
+enter id, first name, last name and number Of Courses
+1
+a
+s
+10
+enter 10 grades
+1. 90
+
+2. 95
+
+3. 90
+
+4. 100
+
+5. 100
+
+6. 100
+
+7. 100
+
+8. 100
+
+9. 100
+
+10. 100
+
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 1
+enter 1 to add a BA student
+enter 2 to add a MA student
+enter 3 to add a PHD student
+2
+enter id, first name, last name and number Of Courses
+2
+s
+d
+2
+enter 2 grades
+1. 20
+
+2. 70
+
+enter 1 if the student does research and 0 if not
+0
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 1
+enter 1 to add a BA student
+enter 2 to add a MA student
+enter 3 to add a PHD student
+3
+enter id, first name, last name and number Of Courses
+3
+d
+f
+0
+enter number of research hours
+120
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 1
+enter 1 to add a BA student
+enter 2 to add a MA student
+enter 3 to add a PHD student
+3
+enter id, first name, last name and number Of Courses
+4
+g
+h
+2
+enter number of research hours
+100
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 2
+ID:1
+First name:a
+Last name:s
+Number of courses:10
+Grades:90 95 90 100 100 100 100 100 100 100
+========================
+ID:4
+First name:g
+Last name:h
+Number of courses:2
+Research hours:100
+========================
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 3
+PHD studnet with most research hours: d f
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 4
+number of BA studnets for milga: 1
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 5
+list of no research MA students : s d
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 6
+no student takes more than 15 courses
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 7
+ID:1
+First name:a
+Last name:s
+Number of courses:10
+Grades:90 95 90 100 100 100 100 100 100 100
+========================
+ID:2
+First name:s
+Last name:d
+Number of courses:2
+Grades:20 70 ========================
+ID:4
+First name:g
+Last name:h
+Number of courses:2
+Research hours:100
+========================
+
+
+
+Menu options:
+
+   0    --      Exit
+   1    --      Add a new student
+   2    --      Print details for all students eligible for stipend
+   3    --      Print full name of the student with most research hours
+   4    --      Print number of BA students eligible for stipend
+   5    --      Print full name of all MA students not doing research
+   6    --      Check for existance of a student with >15 courses
+   7    --      Remove PHD students not doing any course
+
+Please choose a menu option: 0
