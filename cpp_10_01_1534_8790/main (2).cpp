@@ -79,14 +79,13 @@ void add(vector<Student*>& vec)
 }
 void milga(vector<Student*>& vec) 
 {
-	auto end = unique(vec.begin(), vec.end());
-	for (vector<Student*>::iterator it = vec.begin(); it != end; it++) 
+	for (vector<Student*>::iterator it = vec.begin(); it != vec.end(); it++) 
 		if ((*it)->stipend())
 			(*it)->print();
 }
 Student* mostResearchHours(vector<Student*> vec) 
 {
-	vector<Student*>::iterator max = find_if(vec.begin(), unique(vec.begin(), vec.end()), [](Student* st) {return st->studType() == "PHD"; });
+	vector<Student*>::iterator max = find_if(vec.begin(),vec.end(), [](Student* st) {return st->studType() == "PHD"; });
 
 	for (vector<Student*>::iterator it = max + 1; it != --vec.end(); it++)
 		if ((*it)->studType() == "PHD" && *((PHD*)*max) < *((PHD*)*it))
@@ -120,12 +119,12 @@ int main() {
 			break;
 
 		case COUNT_STIPEND_BA:
-			cout << "number of BA studnets for milga: " << count_if(vec.begin(), unique(vec.begin(), vec.end()), [](Student* st) {return (st->studType() == "BA" && st->stipend()); }) << endl;
+			cout << "number of BA studnets for milga: " << count_if(vec.begin(),vec.end(), [](Student* st) {return (st->studType() == "BA" && st->stipend()); }) << endl;
 			break;
 
 		case NO_RESEARCH_MA:
 			cout << "list of no research MA students : ";
-			for_each(vec.begin(), unique(vec.begin(), vec.end()), [](Student* st) {if (st->studType() == "MA" && !(((MA*)st)->participate())) cout << st->firstName() << " " << st->lastName() << endl; });
+			for_each(vec.begin()vec.end(), [](Student* st) {if (st->studType() == "MA" && !(((MA*)st)->participate())) cout << st->firstName() << " " << st->lastName() << endl; });
 			cout << endl;
 			break;
 
@@ -137,8 +136,8 @@ int main() {
 			break;
 
 		case REMOVE_PHD_FAILERS:
-			remove_if(vec.begin(), vec.end(), [](Student* st) { return st->studType() == "PHD" && !(st->numberOFcourses()); });
-			for_each(vec.begin(), unique(vec.begin(), vec.end()), [](Student* st) {st->print(); });
+			vec.resize(remove_if(vec.begin(), vec.end(), [](Student* st) { return st->studType() == "PHD" && !(st->numberOFcourses()); }) - vec.begin());
+			for_each(vec.begin(), vec.end(), [](Student* st) {st->print(); });
 			break;
 
 		default:
