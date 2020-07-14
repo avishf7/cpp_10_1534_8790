@@ -3,7 +3,7 @@
 #include<vector>
 #include<algorithm>
 #include<string>
-#include"menu (2).h"
+#include"menu.h"
 #include"student.h"
 #include"BA.h"
 #include"MA.h"
@@ -124,7 +124,7 @@ int main() {
 
 		case NO_RESEARCH_MA:
 			cout << "list of no research MA students : ";
-			for_each(vec.begin()vec.end(), [](Student* st) {if (st->studType() == "MA" && !(((MA*)st)->participate())) cout << st->firstName() << " " << st->lastName() << endl; });
+			for_each(vec.begin(),vec.end(), [](Student* st) {if (st->studType() == "MA" && !(((MA*)st)->participate())) cout << st->firstName() << " " << st->lastName() << endl; });
 			cout << endl;
 			break;
 
