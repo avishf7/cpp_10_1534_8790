@@ -1,0 +1,13 @@
+﻿  BA.cpp
+  MA.cpp
+C:\Users\Assist\Documents\GitHub\cpp_10_1534_8790\cpp_10_01_1534_8790\BA.h(26,21): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+C:\Users\Assist\Documents\GitHub\cpp_10_1534_8790\cpp_10_01_1534_8790\BA.h(26,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Assist\Documents\GitHub\cpp_10_1534_8790\cpp_10_01_1534_8790\BA.h(26,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Assist\Documents\GitHub\cpp_10_1534_8790\cpp_10_01_1534_8790\main.cpp(36,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Assist\Documents\GitHub\cpp_10_1534_8790\cpp_10_01_1534_8790\main.cpp(54,21): warning C4018: '<': signed/unsigned mismatch
+  menu.cpp
+  PHD.cpp
+  Generating Code...
+C:\Users\Assist\Documents\GitHub\cpp_10_1534_8790\cpp_10_01_1534_8790\main.cpp(104,7): warning C4101: 'num': unreferenced local variable
+  cpp_10_01_1534_8790.vcxproj -> C:\Users\Assist\Documents\GitHub\cpp_10_1534_8790\cpp_10_01_1534_8790\x64\Debug\cpp_10_01_1534_8790.exe

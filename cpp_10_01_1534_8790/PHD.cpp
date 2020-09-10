@@ -1,5 +1,5 @@
 /*
-File: mytypes.h
+File: PHD.cpp
 Description:
 Course: 150018 C++ Workshop, Exercise 6, Question 3
 Author: Dan Zilberstein
