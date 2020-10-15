@@ -10,7 +10,7 @@ MenuOption operator++(MenuOption& rhs) {
 }
 
 const char* MenuOptionLine[LAST_MENU_OPTION + 1] {
-	"Exit",
+	"Exit :)",
 	"Add a new student",
 	"Print details for all students eligible for stipend",
 	"Print full name of the student with most research hours",
